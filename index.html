@@ -12,7 +12,19 @@
   <meta property="og:description" content="Content Creator">
   <meta property="og:site_name" content="Andreas Lacza">
   <meta name="theme-color" content="#000000">
-  <style>html{font-family:Futura,sans-serif;font-size:18px;line-height:1;-webkit-text-size-adjust:100%}body{background-color:#000;color:#fff;margin:0}article{margin-left:auto;margin-right:auto;max-width:600px;position:relative;width:90%}h1{font-size:54px;text-transform:uppercase}a{background-color:transparent;color:inherit;display:block;text-decoration:none}span{color:transparent;-webkit-text-stroke-color:#ffffff;-webkit-text-stroke-width:1px}section{font-size:40px}ul{list-style-type:none;padding-left:0;text-transform:uppercase}li{margin-top:4px}footer{color:#888;font-size:12px}p{line-height:1.5}p a{text-decoration:underline}#dialog{background-color:#000;display:none;height:100%;left:0;position:fixed;top:0;width:100%}#close{float:right}</style>
+  <style>
+    html{font-family:Futura,sans-serif;font-size:18px;line-height:1;-webkit-text-size-adjust:100%}
+    body{background-color:#000;color:#fff;margin:0}
+    article{margin-left:auto;margin-right:auto;max-width:600px;position:relative;width:90%}
+    h1{font-size:54px;text-transform:uppercase}
+    a{background-color:transparent;color:inherit;display:block;text-decoration:none}
+    span{color:transparent;-webkit-text-stroke-color:#ffffff;-webkit-text-stroke-width:1px}
+    section{font-size:40px;font-weight:bolder}
+    ul{list-style-type:none;padding-left:0;text-transform:uppercase}
+    li{margin-top:4px}footer{color:#888;font-size:12px}
+    p{line-height:1.5}p a{text-decoration:underline}
+    #dialog{background-color:#000;display:none;height:100%;left:0;position:fixed;top:0;width:100%}
+    #close{float:right}</style>
 </head>
 <body>
 <article>
@@ -40,6 +52,13 @@
     <p>Diese Website wird über <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> veröffentlicht. Hier gilt die <a href="https://docs.github.com/en/site-policy/privacy-policies" target="_blank">Datenschutzerklärung</a> von GitHub, Inc.</p>
   </article>
 </div>
-<script>document.getElementById("open").addEventListener("click",function(){document.getElementById("dialog").style.display="block"});document.getElementById("close").addEventListener("click",function(){document.getElementById("dialog").style.display="none"});</script>
+<script>
+  document.getElementById("open").addEventListener("click",function(){
+    document.getElementById("dialog").style.display="block";
+  });
+  document.getElementById("close").addEventListener("click",function(){
+    document.getElementById("dialog").style.display="none";
+  });
+  </script>
 </body>
 </html>

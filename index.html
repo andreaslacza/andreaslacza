@@ -24,7 +24,8 @@
     li{margin-top:4px}footer{color:#888;font-size:12px}
     p{line-height:1.5}p a{text-decoration:underline}
     #dialog{background-color:#000;display:none;height:100%;left:0;position:fixed;top:0;width:100%}
-    #close{float:right}</style>
+    #close{float:right}
+  </style>
 </head>
 <body>
 <article>
@@ -43,7 +44,7 @@
       <li><a id="open" href="#">Datenschutz</a></li>
       <li><a href="mailto:andreas.lacza@gmail.com">Kontakt</a></li>
     </ul>
-    <p>&copy; <script>document.write((new Date).getFullYear().toString());</script> Andreas Lacza</p>
+    <p id="copyright"></p>
   </footer>
 </article>
 <div id="dialog">
@@ -53,11 +54,18 @@
   </article>
 </div>
 <script>
-  document.getElementById("open").addEventListener("click",function(){
-    document.getElementById("dialog").style.display="block";
+  const currentYear = new Date().getFullYear();
+  const copyright = document.getElementById("copyright");
+  copyright.innerHTML = "&copy; " + currentYear + " Andreas Lacza";
+  
+  const dialog = document.getElementById("dialog");
+  const open = document.getElementById("open");
+  open.addEventListener("click",function(){
+    dialog.style.display="block";
   });
-  document.getElementById("close").addEventListener("click",function(){
-    document.getElementById("dialog").style.display="none";
+  const close = document.getElementById("close");
+  close.addEventListener("click",function(){
+    dialog.style.display="none";
   });
   </script>
 </body>

@@ -1,7 +1,7 @@
 html {
   font-family: Futura, sans-serif;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -16,8 +16,8 @@ h1 {
   line-height: 1;
   margin-bottom: 0;
   margin-top: 0;
-  padding-bottom: 3vh;
-  padding-top: 3vh;
+  padding-bottom: 4vh;
+  padding-top: 12vh;
   text-transform: uppercase;
 }
 
@@ -47,8 +47,8 @@ ul {
 footer {
   color: #777;
   font-size: 12px;
-  padding-bottom: 1vh;
-  padding-top: 3vh;
+  padding-bottom: 2vh;
+  padding-top: 4vh;
 }
 
 footer p {

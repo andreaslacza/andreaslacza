@@ -16,16 +16,19 @@ h1 {
   line-height: 1;
   margin-bottom: 0;
   margin-top: 0;
-  padding-bottom: 10px;
-  padding-top: 20px;
+  padding-bottom: 3vh;
+  padding-top: 2vh;
   text-transform: uppercase;
-
 }
 
 a {
   background-color: transparent;
   color: inherit;
   text-decoration: none;
+}
+
+p a {
+  text-decoration: underline;
 }
 
 span {
@@ -39,24 +42,23 @@ ul {
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 0;
-  padding-top: 20px;
 }
 
 footer {
   color: #777;
   font-size: 12px;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 1vh;
+  padding-top: 3vh;
+}
+
+footer p {
+  padding-top: 1vh;
 }
 
 p {
+  line-height: 1.5;
   margin-bottom: 0;
   margin-top: 0;
-  padding-top: 10px;
-}
-
-p a {
-  text-decoration: underline;
 }
 
 .container {

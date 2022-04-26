@@ -70,8 +70,6 @@ p {
 
 .social {
   font-size: 12vw;
-  font-weight: bolder;
-  text-transform: uppercase;
 }
 
 @media screen and (min-width: 600px) {

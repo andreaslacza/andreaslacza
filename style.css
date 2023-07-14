@@ -12,8 +12,6 @@ body {
 header {
     min-height: 75px;
     margin-bottom: 60px;
-    align-items: center;
-    display: flex;
 }
 
 main {
@@ -284,4 +282,8 @@ template {
 
 [hidden] {
     display: none;
+}
+
+div.center {
+    text-align: center;
 }

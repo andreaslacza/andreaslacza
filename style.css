@@ -127,6 +127,7 @@ img.circle {
     box-shadow: 0 16px 24px 0 rgba(0,0,0,.1);
     height: 250px;
     width: 250px;
+    margin-bottom: 60px;
 }
 
 button {

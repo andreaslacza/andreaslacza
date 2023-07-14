@@ -145,6 +145,7 @@ img.circle {
     height: 250px;
     width: 250px;
     margin-bottom: 60px;
+    display: inline-block;
 }
 
 button {
